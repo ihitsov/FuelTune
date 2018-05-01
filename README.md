@@ -1,1 +1,1 @@
-My first Java app for tuning fuel from .csv logs. Probably a lot of cleaup and re-writing is needed, but it is functional as is, minus a memory leak :)
+My first Java app for tuning fuel from .csv logs. Probably a lot of cleanup and re-writing is needed, but it is functional as is, minus a memory leak :)
