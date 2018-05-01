@@ -1,0 +1,13 @@
+		public int isSelected() {
+        if (ZOpt1.isSelected()) {
+        CaseZ=0;} 
+        else if (ZOpt2.isSelected()) {
+        CaseZ=1} 
+        else if (ZOpt3.isSelected()) {
+        CaseZ=2;} else {
+            CaseZ=3;}
+        return CaseZ;
+		}﻿
+		
+        
+		
