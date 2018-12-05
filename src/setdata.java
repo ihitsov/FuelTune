@@ -25,11 +25,11 @@ public static void main(){
     	for (Integer col=0; col<CalculateAFR.X_Support.size();col++) {
     		try {
 				if (AFRTemp.get(row).get(col) == (Float)AFRTemp.get(row).get(col)) {
-				tempval = round(AFRTemp.get(row).get(col),1);
+				tempval = round(AFRTemp.get(row).get(col),3);
 				if (tempval<min) {min=tempval;}
 				if (tempval>max) {max=tempval;}
 				}
-				DecimalFormat format = new DecimalFormat("0.#");
+				DecimalFormat format = new DecimalFormat("0.###");
 				dataTemp[row][col]=format.format(tempval);
 				if (AFRTemp.get(row).get(col) == 0){
 					dataTemp[row][col]="";
